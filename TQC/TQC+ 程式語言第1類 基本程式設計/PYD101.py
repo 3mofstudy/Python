@@ -1,0 +1,8 @@
+a = eval(input())
+b = eval(input())
+c = eval(input())
+d = eval(input())
+print("|{:>5d} {:>5d}|".format(a,b))
+print('|{:>5d} {:>5d}|'.format(c,d))
+print('|{:<5d} {:<5d}|'.format(a,b))
+print('|{:<5d} {:<5d}|'.format(c,d))
